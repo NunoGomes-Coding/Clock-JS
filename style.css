@@ -34,7 +34,7 @@ body {
 }
 
 .clock .number {
-    padding-top: 10px;
+    padding-top: 0.5rem;
     --rotation: 0;
     position: absolute;
     width: 100%;
