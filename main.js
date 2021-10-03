@@ -18,9 +18,9 @@ function SetClock() {
 	SetRotation(minuteHand, minutesRatio)
 	SetRotation(secondHand, secondsRatio)
 
-	setDigital(digitalHour, (hoursRatio * 12))
-	setDigital(digitalminute, (minutesRatio * 60))
-	setDigital(digitalsecond, (secondsRatio * 60))
+	setDigital(digitalHour, (currentDate.getHours()))
+	setDigital(digitalminute, (currentDate.getMinutes()))
+	setDigital(digitalsecond, (currentDate.getSeconds()))
 }
 
 function SetRotation(element, rotationRatio) {
